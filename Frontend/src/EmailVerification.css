@@ -1,0 +1,134 @@
+/* Main container with flex layout for side-by-side sections */
+.verification-page {
+  display: flex;
+  height: 100vh;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Font Import */
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url('assets/fonts/nunitosans.ttf') format('truetype');
+}
+
+/* Left section styling */
+.verification-left {
+  flex: 1;
+  background-image: url('./images/bgimage1.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;  
+  background-color: #f7f3e6;
+}
+.verification-right .logo {
+  width: auto;              /* Set the size of the logo */
+      height: 112px; 
+  margin-bottom: 9px;
+  margin-top: -60px;
+}
+
+.verification-right h1 {
+  font-family: 'Nunito Sans';
+  color: #525252;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.Verification-description p {
+  font-size: 15px;
+  color: #67737f
+  line-height 0px;
+}
+
+.veri-text {
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+/* Right section styling */
+.verification-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color:#f7f3e6;
+}
+
+/* Title styling */
+.verification-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+/* Subtitle or instruction text */
+.verification-text {
+  color: #555;
+  margin-bottom: 0px;
+}
+
+/* Input field styling for the code */
+.verification-input {
+  width: 240px;
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.verification-input:focus {
+  border-color: #7b3d77;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button styling */
+.verification-button {
+  width: 100%;
+  max-width: 250px;
+  background-color: #7F265B;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+  color: white;
+}
+
+.verification-button:hover {
+  background-color: #7b3d77;
+}
+
+/* Resend text and link styling */
+.resend-text {
+  color: #555;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.resend-link {
+  color: #7b3d77;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.resend-link:hover {
+  text-decoration: underline;
+}
+
+/* Verification message styling */
+.verification-message {
+  color: #f24242;
+  margin-top: 16px;
+  font-size: 14px;
+}

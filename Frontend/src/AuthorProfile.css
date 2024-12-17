@@ -1,0 +1,218 @@
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url('assets/fonts/nunitosans.ttf') format('truetype');
+  font-weight: 400; 
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #f7f3e6;
+  color: #333;
+}
+
+.author-profile-container .author-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  border-bottom: 1px solid black;
+  margin-top: -48px;
+}
+
+.author-profile-container .logo {
+  height: auto; /* Adjust logo size as needed */
+  width: 200px;
+  position: absolute;
+    top: 15px;
+    left: 40px; /* Positioning logo to the top left */
+}
+
+.author-profile-container .nav-icons {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: -10px;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 6px;
+  padding-top: 7px;
+}
+
+.author-profile-container .nav-icons .wishlisticon  {
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 10px;
+ /* Space for underline */
+  padding-top: 28px;
+  /* border-bottom: 4px solid  #940491; */
+}
+
+.author-profile-container .nav-icons .homeicon {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 10px; 
+  /* Space for underline */
+  padding-top: 28px;
+  /* border-bottom: 4px solid  #940491; */
+
+}
+
+.author-profile-container .nav-icons .profileicon {
+  width: 20px;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 10px; /* Space for underline */
+  padding-top: 28px;
+  border-bottom: 4px solid  #940491;
+}
+
+
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  font-size: 2.5em;
+  background-color: #f7f3e6;
+  /* padding: 10px 0; */
+  margin-top: 15px;
+  border-bottom: 1px solid black;
+}
+
+.navigation a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigation .text-2{
+  margin-left: 50px;;
+  margin-right: 50px;
+}
+
+.navigation .text-1{
+  margin-left: 50px;;
+  margin-right: 50px;
+}
+
+.navigation .text-3{
+  margin-left: 50px;;
+  margin-right: 50px;
+}
+
+.navigation .text-1.active{
+  border-bottom: 10px solid #7f265b;
+  border-radius: 10px;
+}
+
+.author-profile-container .author-content {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.author-profile-container .details-section h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin: 25px;
+  color: #796969;
+}
+
+.author-profile-container .books-section h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 2em;
+  margin-top: 0;
+  margin: 25px;
+  color: #796969;
+}
+
+.author-profile-container .details {
+  font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  font-size: 1em;
+  gap: 25px; /* Space between each input field */
+  margin-bottom: 15px;
+}
+
+.author-profile-container .input-group {
+  font-family: 'Nunito Sans', sans-serif;
+  flex: 1;
+  margin: 20px;
+  margin-bottom: 20px;
+}
+
+.author-profile-container .reader-user-input {
+  font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  font-size: 1em;
+  gap: 25px;
+  margin-bottom: 15px;;
+}
+
+.author-profile-container .input-group label {
+  font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.author-profile-container .input-group input {
+  font-family: 'Nunito Sans', sans-serif;
+  width: 80%; /* Adjusts the width within the container */
+  height: 40px; /* Adjusts the height of the input box */
+  padding: 10px;
+  font-size: 1em;
+  color: #796969;
+  border-radius: 15px; /* Rounds the edges */
+}
+
+.author-profile-container .reader-user-input input{
+  font-family: 'Nunito Sans', sans-serif;
+  width: 24%; /* Adjusts the width within the container */
+  height: 40px; /* Adjusts the height of the input box */
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 15px; /* Rounds the edges */
+}
+
+/* .books-section {
+  margin-top: 30px;
+  padding: 10px;
+} */
+
+.author-profile-container .books-section p {
+  margin: 150px;
+  text-align: center;
+}
+
+/* Add these styles to maintain consistency */
+.author-profile-container .item4 {
+  margin: 20px;
+  margin-bottom: 20px;  /* Push logout to the right */
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.author-profile-container .logout-btn {
+  background-color: #7f265b;
+  margin-left: 20px; /* Push logout to the right */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1em;
+  height: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.reader-profile-page .logout-btn:hover {
+  background-color: #5c1c42;  /* Darker shade for hover */
+}
