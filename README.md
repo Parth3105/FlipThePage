@@ -5,7 +5,7 @@
 ---
 
 ## **Live Demo** 🌐
-Try out the live version of the project here: [**G10 eBook Library System - Live Demo**]([https://flipthepage.vercel.app/](https://flipthepage-oho1hhwvd-parth-vadodarias-projects-a9a59656.vercel.app?_vercel_share=cWGMNqzLEjWKHgojnQZlqfZgi7T98h8L))
+Try out the live version of the project here: [**G10 eBook Library System - Live Demo**](https://flipthepage.vercel.app/)
 
 ---
 
